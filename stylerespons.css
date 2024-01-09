@@ -1,0 +1,182 @@
+@media (max-width:768px){
+    .main-container{
+        width:100%;
+        height:auto;
+    }
+
+    .navbar{
+        width:100%;
+        height:80px;
+        padding-inline:50px;
+        
+    }
+
+    .left h3{
+        font-size:20px;
+    }
+
+    .navbar ul{
+        display:none;
+    }
+
+    .right button{
+        width:60px;
+        height:40px;
+    }
+
+    .page{
+        width:100%;
+        height:auto;
+    }
+
+    .page img{
+       width:150px;
+       height:200px;
+
+    }
+
+    .middle{
+        width:350px;
+    }
+
+    .middle h1{
+        font-size:50px;
+    }
+
+    .middle p{
+        width:100%;
+        font-size: 15px;
+        padding:20px;
+    }
+
+    .btn{
+        width:100%;
+        height:120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+       
+    }
+
+    .black{
+       margin:0px;
+        width: 200px;
+        height: 45px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .white{
+        width: 200px;
+        height: 45px;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .crypto-image{
+        width: 100%;
+        height: 400px;
+        
+        background-image: url(./image/Screenshot\ \(22\).png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+
+
+
+@media (max-width:480px){
+    .main-container{
+        width:100%;
+        height:auto;
+    }
+
+    .navbar{
+        width:100%;
+        height:80px;
+        padding-inline:20px;
+        
+    }
+
+    .left h3{
+        font-size:20px;
+    }
+
+    .navbar ul{
+        display:none;
+    }
+
+    .right button{
+        width:60px;
+        height:40px;
+    }
+
+    .page{
+        width:100%;
+        height:auto;
+    }
+
+    .page img{
+      display:none;
+
+    }
+
+    .middle{
+        width:100%;
+    }
+
+    .middle h1{
+        font-size:30px;
+    }
+
+    .middle p{
+        width:100%;
+        font-size: 15px;
+        padding:20px;
+    }
+
+    .btn{
+        width:100%;
+        height:120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+       
+    }
+
+    .black{
+       margin:0px;
+        width: 200px;
+        height: 45px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .white{
+        width: 200px;
+        height: 45px;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .crypto-image{
+        width: 100%;
+        height: 400px;
+        background-image: url(./image/Screenshot\ \(22\).png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+}
